@@ -15,7 +15,12 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
-
+# Generate fake user content
+gem 'faker', '~> 1.7.3'
+# Gem for paginating large amount of users
+gem 'will_paginate',           '~> 3.1.6'
+# Gem for using Bootstrap with will_paginate
+gem 'bootstrap-will_paginate', '~> 1.0.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Use jQuery Rails for... stuff n things...
