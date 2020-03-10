@@ -17,6 +17,9 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 # Generate fake user content
 gem 'faker', '~> 1.7.3'
+# Handles image uploading and associations with the Micropost model
+gem 'carrierwave', '1.2.2'
+gem 'mini_magick', '4.7.0'
 # Gem for paginating large amount of users
 gem 'will_paginate',           '~> 3.1.6'
 # Gem for using Bootstrap with will_paginate
@@ -74,6 +77,7 @@ end
 
 group :production do
   gem 'pg', '0.20.0'
+  gem 'fog', '1.42'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
