@@ -19,7 +19,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'faker', '~> 1.7.3'
 # Handles image uploading and associations with the Micropost model
 gem 'carrierwave', '1.2.2'
-gem 'mini_magick', '4.7.0'
+gem 'mini_magick', '4.9.4'
 # Gem for paginating large amount of users
 gem 'will_paginate',           '~> 3.1.6'
 # Gem for using Bootstrap with will_paginate
