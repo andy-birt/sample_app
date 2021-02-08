@@ -18,7 +18,7 @@ gem 'uglifier', '>= 1.3.0'
 # Generate fake user content
 gem 'faker', '~> 1.7.3'
 # Handles image uploading and associations with the Micropost model
-gem 'carrierwave', '1.2.2'
+gem 'carrierwave', '1.3.2'
 gem 'mini_magick', '4.7.0'
 # Gem for paginating large amount of users
 gem 'will_paginate',           '~> 3.1.6'
